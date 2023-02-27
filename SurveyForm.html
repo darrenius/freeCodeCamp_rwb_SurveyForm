@@ -1,0 +1,52 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>freeCodeCamp Survey Form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <div class="header">
+        <h1 id="title">Career Development Survey</h1>
+        <p id="description">We'd like to know which career path you'de like to pursue once completing the freeCodeCamp 'Responsive Web Design' certifcation</p>
+    </div>
+    <div class="form-contents">
+        <form id="survey-form">
+            <fieldset>
+                <h2>Important Information</h2>
+                <label for="name" id="name-label" class="dsp-block">
+                    First Name
+                    <input type="text" required minlength="1" id="name" placeholder="Enter your first name" class="dsp-block">
+                </label>
+                <label for="email" id="email-label"class="dsp-block">
+                    Email Address
+                    <input type="=email" required id="email" placeholder="Enter your email address" class="dsp-block">
+                </label>
+                <label for="number" id="number-label" class="dsp-block">
+                    Phone Number
+                    <input type="number" name="number" min="1" max="9999999999" placeholder="Enter your phone number" class="dsp-block">
+                </label>
+            </fieldset>
+            <fieldset>
+                <h2>Career Paths</h2>
+                <label for="" id="" class="dsp-block">
+                    Which career path would've you like to pursue?
+                    <select id="dropdown" class="dsp-block">
+                        <option></option>
+                        <option>Front-End Web Development</option>
+                        <option>Back-End Web Development</option>
+                        <option>Fullstack Web Development</option>
+                        <option>Data Analysis</option>
+                        <option>Mobile App Development</option>
+                        <option>Desktop App Development</option>
+                        <option>Game Development</option>
+                        <option>UI/UX Design</option>
+                        <option>Unsure/Not Yet Decided</option>
+                        <option>Other</option>
+                    </select>
+                </label>
+            </fieldset>
+            
+        </form>
+    </div>
+</html>
