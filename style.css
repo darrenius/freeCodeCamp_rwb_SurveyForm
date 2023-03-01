@@ -12,10 +12,12 @@ body{
 .form-contents{
     width: 80%;
     margin: 0 auto;
-    background-color: bisque;
+    text-align: center;
+    
     
 }
 
 .dsp-block{
     display: block;
+    margin:  auto;
 }

@@ -24,7 +24,7 @@
                 </label>
                 <label for="number" id="number-label" class="dsp-block">
                     Phone Number
-                    <input type="number" name="number" min="1" max="9999999999" placeholder="Enter your phone number" class="dsp-block">
+                    <input type="number" name="number" min="1" max="999999999" placeholder="Enter your phone number" class="dsp-block">
                 </label>
             </fieldset>
             <fieldset>
@@ -32,7 +32,7 @@
                 <label for="" id="dropdown" class="dsp-block">
                     Which career path would've you like to pursue?
                     <select id="dropdown" class="dsp-block">
-                        <option></option>
+                        <option>(make a selection)</option>
                         <option>Front-End Web Development</option>
                         <option>Back-End Web Development</option>
                         <option>Fullstack Web Development</option>
@@ -49,11 +49,11 @@
             <fieldset>
                 <h2>Checkboxes</h2>
                 <label class="dsp-block">
-                    <input type="checkbox">
+                    <input type="checkbox" required id="terms-&-conditions">
                     I have read the terms and conditions
                 </label>        
                 <label class="dsp-block">
-                    <input type="checkbox" >
+                    <input type="checkbox" id="newsletter-subscribe">
                     I agree to sign up for the newsletter and blog subscription
                 </label>
             </fieldset>
