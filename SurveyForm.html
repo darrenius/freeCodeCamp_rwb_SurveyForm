@@ -7,37 +7,42 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <div class="header">
-        <img src="rsrc/img/terminal-icon-white.png" class="header-icon">
-        <h3 id="title">freeCodeCamp@SurveyForm: ~</h3>
-    </div>
-    <div>
-        <h2>freeCodeCamp Terminal [Version 1.0.0.6]</h2>
-        <h4>Copyright (C) Darrenius. All Rights Reserved</h4>
-        <h4>PS C:\Users\you></h4>
+        <h1 id="title">Header</h1>
     </div>
     <div class="form-contents">
+        <div class="form-details form-sections">
+            <p id="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut similique culpa doloremque cum! Possimus reprehenderit impedit, ea dolorem voluptatem neque doloremque, quae non iste vitae tempora itaque! Magni, pariatur deleniti.
+            </p>
+        </div>
         <form id="survey-form">
             <fieldset>
-                <h2>\ The Important Stuff</h2>
+                <legend>The Important Stuff</legend>
+                <h2>Title</h2>
                 <p class="section-subheading">*Just making sure you're not a robot</p>
                 <label for="name" id="name-label" class="dsply-block">
                     Name
                     <input type="text" required minlength="1" id="name" placeholder="Enter your first name" class="dsply-block cntrl-input">
                 </label>
+                <label for="name" id="surname-label" class="dsply-block">
+                    Name
+                    <input type="text" required minlength="1" id="surname" placeholder="Enter your last name" class="dsply-block cntrl-input">
+                </label>
                 <label for="email" id="email-label"class="dsply-block">
                     Email
                     <input type="email" required id="email" placeholder="Enter your email address" class="dsply-block cntrl-input">
                 </label>
-                <label for="number" id="number-label" class="dsp-block">
-                    Phone Number
-                    <input type="number" name="number" min="1" max="9999999999" placeholder="Enter your phone number" class="dsp-block">
+                <label for="number" id="number-label" class="dsply-block">
+                    Your Digits
+                    <input type="number" name="number" min="1" max="9999999999" placeholder="Enter your phone number" class="dsply-block cntrl-input" id="number">
                 </label>
             </fieldset>
             <fieldset>
-                <h2>\ Career Paths</h2>
-                <label for="dropdown" id="dropdown" class="dsply-block">
+                <legend>Career Paths</legend>
+                <h2>Title</h2>
+                <label for="dropdown" id="lbl-dropdown" class="dsply-block">
                     Which career path would've you like to pursue?
-                    <select id="dropdown" class="dsp-block">
+                    <select id="dropdown" class="dsply-block cntrl-input">
                         <option></option>
                         <option>Front-End Web Development</option>
                         <option>Back-End Web Development</option>
@@ -51,29 +56,29 @@
                         <option>Other</option>
                     </select>
                 </label>
+                <label for="number" id="number-label" class="dsply-block">
+                    Your Digits
+                    <input type="number" name="number" min="1" max="100" placeholder="Number in years" class="dsply-block cntrl-input" id="number">
+                </label>
             </fieldset>
             <fieldset>
-                <h2>Checkboxes</h2>
-                <label class="dsp-block">
+                <h2>\ Checkboxes</h2>
+                <label class="dsply-block">
                     <input type="checkbox">
                     I have read the terms and conditions
                 </label>        
-                <label class="dsp-block">
+                <label class="dsply-block">
                     <input type="checkbox" >
                     I agree to sign up for the newsletter and blog subscription
                 </label>
-                <label>
-                    <h3>radio buttons</h3>
-                    <input type="radio">
-                    <input type="radio">
-                </label>
+                
             </fieldset>
             <fieldset>
                 <h2>\ Users\You\ Text Area</h2>
                 <textarea></textarea>
             </fieldset>
             <fieldset>
-                <input type="submit" id="submit">
+                <input type="submit" id="submit" class="style-button">
             </fieldset>
         </form>
     </div>
