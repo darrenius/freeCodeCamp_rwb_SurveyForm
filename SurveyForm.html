@@ -7,32 +7,38 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <div class="header">
-        <h1 id="title">Career Development Survey</h1>
-        <p id="description">We'd like to know which career path you'de like to pursue once completing the freeCodeCamp 'Responsive Web Design' certifcation</p>
+        <img src="rsrc/img/terminal-icon-white.png" class="header-icon">
+        <h3 id="title">freeCodeCamp@SurveyForm: ~</h3>
+    </div>
+    <div>
+        <h2>freeCodeCamp Terminal [Version 1.0.0.6]</h2>
+        <h4>Copyright (C) Darrenius. All Rights Reserved</h4>
+        <h4>PS C:\Users\you></h4>
     </div>
     <div class="form-contents">
         <form id="survey-form">
             <fieldset>
-                <h2>Important Information</h2>
-                <label for="name" id="name-label" class="dsp-block">
-                    First Name
-                    <input type="text" required minlength="1" id="name" placeholder="Enter your first name" class="dsp-block">
+                <h2>\ The Important Stuff</h2>
+                <p class="section-subheading">*Just making sure you're not a robot</p>
+                <label for="name" id="name-label" class="dsply-block">
+                    Name
+                    <input type="text" required minlength="1" id="name" placeholder="Enter your first name" class="dsply-block cntrl-input">
                 </label>
-                <label for="email" id="email-label"class="dsp-block">
-                    Email Address
-                    <input type="=email" required id="email" placeholder="Enter your email address" class="dsp-block">
+                <label for="email" id="email-label"class="dsply-block">
+                    Email
+                    <input type="email" required id="email" placeholder="Enter your email address" class="dsply-block cntrl-input">
                 </label>
                 <label for="number" id="number-label" class="dsp-block">
                     Phone Number
-                    <input type="number" name="number" min="1" max="999999999" placeholder="Enter your phone number" class="dsp-block">
+                    <input type="number" name="number" min="1" max="9999999999" placeholder="Enter your phone number" class="dsp-block">
                 </label>
             </fieldset>
             <fieldset>
-                <h2>Career Paths</h2>
-                <label for="" id="dropdown" class="dsp-block">
+                <h2>\ Career Paths</h2>
+                <label for="dropdown" id="dropdown" class="dsply-block">
                     Which career path would've you like to pursue?
                     <select id="dropdown" class="dsp-block">
-                        <option>(make a selection)</option>
+                        <option></option>
                         <option>Front-End Web Development</option>
                         <option>Back-End Web Development</option>
                         <option>Fullstack Web Development</option>
@@ -49,16 +55,26 @@
             <fieldset>
                 <h2>Checkboxes</h2>
                 <label class="dsp-block">
-                    <input type="checkbox" required id="terms-&-conditions">
+                    <input type="checkbox">
                     I have read the terms and conditions
                 </label>        
                 <label class="dsp-block">
-                    <input type="checkbox" id="newsletter-subscribe">
+                    <input type="checkbox" >
                     I agree to sign up for the newsletter and blog subscription
                 </label>
+                <label>
+                    <h3>radio buttons</h3>
+                    <input type="radio">
+                    <input type="radio">
+                </label>
             </fieldset>
-            
-            
+            <fieldset>
+                <h2>\ Users\You\ Text Area</h2>
+                <textarea></textarea>
+            </fieldset>
+            <fieldset>
+                <input type="submit" id="submit">
+            </fieldset>
         </form>
     </div>
 </html>
