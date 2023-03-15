@@ -18,14 +18,14 @@
         <form id="survey-form">
             <fieldset>
                 <legend>The Important Stuff</legend>
-                <h2>Title</h2>
                 <p class="section-subheading">*Just making sure you're not a robot</p>
+
                 <label for="name" id="name-label" class="dsply-block">
                     Name
                     <input type="text" required minlength="1" id="name" placeholder="Enter your first name" class="dsply-block cntrl-input">
                 </label>
                 <label for="name" id="surname-label" class="dsply-block">
-                    Name
+                    Last Name
                     <input type="text" required minlength="1" id="surname" placeholder="Enter your last name" class="dsply-block cntrl-input">
                 </label>
                 <label for="email" id="email-label"class="dsply-block">
@@ -36,6 +36,7 @@
                     Your Digits
                     <input type="number" name="number" min="1" max="9999999999" placeholder="Enter your phone number" class="dsply-block cntrl-input" id="number">
                 </label>
+                <div class="active-fieldset"></div>
             </fieldset>
             <fieldset>
                 <legend>Career Paths</legend>
@@ -61,23 +62,24 @@
                     <input type="number" name="number" min="1" max="100" placeholder="Number in years" class="dsply-block cntrl-input" id="number">
                 </label>
             </fieldset>
-            <fieldset>
-                <h2>\ Checkboxes</h2>
-                <label class="dsply-block">
-                    <input type="checkbox">
-                    I have read the terms and conditions
-                </label>        
-                <label class="dsply-block">
-                    <input type="checkbox" >
-                    I agree to sign up for the newsletter and blog subscription
-                </label>
-                
-            </fieldset>
+            
             <fieldset>
                 <h2>\ Users\You\ Text Area</h2>
                 <textarea></textarea>
             </fieldset>
             <fieldset>
+                <h2>\ Checkboxes</h2>
+                <label class="dsply-block">
+                    <input type="checkbox">
+                    I have read the <a href="#">terms and conditions</a>
+                </label>        
+                <label class="dsply-block">
+                    <input type="checkbox" >
+                    I agree to sign up for the newsletter
+                </label>
+                
+            </fieldset>
+            <fieldset class="fieldset-submit">
                 <input type="submit" id="submit" class="style-button">
             </fieldset>
         </form>
