@@ -110,7 +110,7 @@ fieldset.style-button{
 
 
 
-input{
+input, select{
     outline: 0;
 }
 
@@ -125,4 +125,15 @@ input::placeholder{
 
 .fieldset-submit{
     border-width: 0;
+}
+textarea{
+    width: 600px;
+    height: 100px;
+    resize: none;
+}
+
+textarea:focus{
+    border-color: #f34079;
+    border: 2px solid #f34079;
+    outline: 0;
 }
