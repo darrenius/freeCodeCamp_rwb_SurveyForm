@@ -11,9 +11,9 @@
     </div>
     <div class="form-contents">
         <div class="form-details form-sections">
-            <h4 id="description">
+            <p id="description">
                 We'd really like to hear your thoughts on our courses
-            <h4/>
+            <p/>
         </div>
         <form id="survey-form">
             <fieldset>
@@ -36,7 +36,16 @@
                     Age
                     <input type="number" name="number" min="1" max="120" placeholder="Enter your age number" class="dsply-block cntrl-input" id="number">
                 </label>
-                <div class="active-fieldset"></div>
+                <p>Sex</p>
+                <p class="question-description">*For statical purposes</p>
+                <div>
+                    <input type="radio" id="contactChoice1" name="contact" value="email" />
+                    <label for="contactChoice1">Male</label>
+              
+                    <input type="radio" id="contactChoice2" name="contact" value="phone" />
+                    <label for="contactChoice2">Female</label>
+                  </div>
+                
             </fieldset>
             <fieldset>
                 <legend>Career Paths</legend>
@@ -83,11 +92,11 @@
             <fieldset>
                 <legend>The Legal Stuff</legend>
                 <label class="dsply-block">
-                    <input type="checkbox">
+                    <input type="checkbox" name="terms-and-conditions" value="terms-and-conditions">
                     I have read the <a href="#">Terms & Conditions</a>
                 </label>        
                 <label class="dsply-block">
-                    <input type="checkbox" >
+                    <input type="checkbox" name="newsletter-signup" value="newsletter-signup">
                     I agree to sign up for the newsletter
                 </label>
                 

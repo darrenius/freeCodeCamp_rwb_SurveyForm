@@ -155,3 +155,11 @@ label{
     margin-top: 200px;
     font-style: bold;
 }
+
+.question-description{
+    font-size: 0.8em;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+
