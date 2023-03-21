@@ -16,11 +16,24 @@ body{
     box-shadow: 1px 1px 50px 5px Grey;
     color: white;
     height: 100px;
+    box-sizing: border-box;
+    margin-top: 0 px;
+}
 
+#title{
+    margin-top: 50%;
+}
+
+.form-contents{
+    width: 60%;
+    margin: 1em auto;
+    position:static;
 }
 
 .form-sections{
     padding: 15px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 legend{
@@ -36,21 +49,22 @@ fieldset{
     text-align: center;
 }
 
-
-
-.form-contents{
-    width: 60%;
-    margin: 1em auto;
+fieldset > label{
+    margin-top: 20px;
 }
+
 
 .dsply-block{
     display: block;
     margin:  auto;
+    margin-bottom: 20px;
 }
 
 .section-subheading{
     font-style: italic;
     font-size: 15px;
+    padding: 0;
+    margin-top: 0;
 }
 
 .cntrl-input{
@@ -71,8 +85,8 @@ fieldset{
     border-bottom: 1px solid gray;
     padding:  0;
 }
-input{
-    margin: 5px;
+input, select{
+    margin: 10px;
 }
 
 .header-icon{
@@ -82,7 +96,7 @@ input{
 
 #title{
     text-align: center;
-    margin: 0 auto;
+    margin-top:  auto;
 }
 
 .style-button{
@@ -108,13 +122,11 @@ fieldset.style-button{
     padding: 0;
 }
 
-
-
 input, select{
     outline: 0;
 }
 
-input:focus{
+input:focus, select:focus{
     border-color: #f34079;
     border-bottom: 2px solid #f34079;
 }
@@ -136,4 +148,10 @@ textarea:focus{
     border-color: #f34079;
     border: 2px solid #f34079;
     outline: 0;
+}
+
+label{
+    margin-bottom: 20px;
+    margin-top: 200px;
+    font-style: bold;
 }

@@ -11,9 +11,9 @@
     </div>
     <div class="form-contents">
         <div class="form-details form-sections">
-            <p id="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut similique culpa doloremque cum! Possimus reprehenderit impedit, ea dolorem voluptatem neque doloremque, quae non iste vitae tempora itaque! Magni, pariatur deleniti.
-            </p>
+            <h4 id="description">
+                We'd really like to hear your thoughts on our courses
+            <h4/>
         </div>
         <form id="survey-form">
             <fieldset>
@@ -44,7 +44,7 @@
                 <label for="dropdown" id="lbl-dropdown" class="dsply-block">
                     Which career path would've you like to pursue?
                     <select id="dropdown" class="dsply-block cntrl-input">
-                        <option></option>
+                        <option>(make a selection)</option>
                         <option>Front-End Web Development</option>
                         <option>Back-End Web Development</option>
                         <option>Fullstack Web Development</option>
@@ -58,18 +58,30 @@
                     </select>
                 </label>
                 <label for="number" id="number-label" class="dsply-block">
-                    Your Digits
+                    How long have you been learning to code?
                     <input type="number" name="number" min="1" max="100" placeholder="Number in years" class="dsply-block cntrl-input" id="number">
                 </label>
             </fieldset>
             
             <fieldset>
-                <legend>Your Feedback</legend>
-                <p>Text Area</p>
+                <legend>How Can We improve?</legend>
+                <p>How do you think we can improve our services? Any and all feedback is welcome.</p>
+                
+                <label for="dropdown" id="lbl-dropdown" class="dsply-block">
+                   How easy did you find the courses?
+                    <select id="dropdown" class="dsply-block cntrl-input">
+                        <option>(make a selection)</option>
+                        <option>Easy</option>
+                        <option>Fairly easy</option>
+                        <option>Hard</option>
+                        <option>Farely Hard</option>
+                    </select>
+                </label>
+                <label class="dsply-block">Please provide any further feedback</label>
                 <textarea ></textarea>
             </fieldset>
             <fieldset>
-                <h2>\ Checkboxes</h2>
+                <legend>The Legal Stuff</legend>
                 <label class="dsply-block">
                     <input type="checkbox">
                     I have read the <a href="#">Terms & Conditions</a>
